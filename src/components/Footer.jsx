@@ -3,4 +3,5 @@ const Footer = () => (
 		© {new Date().getFullYear()} John Doe. All rights reserved.
 	</footer>
 );
+
 export default Footer;

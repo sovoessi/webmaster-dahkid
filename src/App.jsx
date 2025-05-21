@@ -7,23 +7,38 @@ import Footer from './components/Footer';
 
 import './App.css'
 
-function App() {
-  
+const projectsData = [
+	{
+		title: "Portfolio Site",
+		description: "A personal portfolio built with React 19 and TailwindCSS v4.",
+	},
+	{
+		title: "Blog Platform",
+		description: "A clean, markdown-supported blog built for writers.",
+	},
+	{
+		title: "eCommerce UI",
+		description: "Sleek and minimal UI for online stores.",
+	},
+	{
+		title: "Dashboard",
+		description: "Fully responsive admin dashboard template.",
+	},
+];
 
-  return (
-		<>
-			<div className='min-h-screen bg-white text-gray-900 font-sans'>
-				<Header />
-				<main className='max-w-5xl mx-auto px-4'>
-					<Hero />
-					<Projects />
-					<About />
-					<Contact />
-				</main>
-				<Footer />
-			</div>
-		</>
+const App = () => {
+	return (
+		<div className='min-h-screen bg-white text-gray-900 font-sans'>
+			<Header />
+			<main className='w-full px-4 sm:px-8 md:px-12 max-w-7xl mx-auto'>
+				<Hero />
+				<Projects data={projectsData} />
+				<About />
+				<Contact />
+			</main>
+			<Footer />
+		</div>
 	);
-}
+};
 
 export default App

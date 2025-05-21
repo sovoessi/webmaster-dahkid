@@ -1,8 +1,11 @@
 const Hero = () => (
-	<section className='py-24 text-center'>
-		<h2 className='text-4xl font-bold mb-4'>Hi, I'm John Doe</h2>
-		<p className='text-lg text-gray-600 max-w-xl mx-auto'>
-			I design and build modern, minimal websites using React and TailwindCSS.
+	<section className='py-20 md:py-28 text-center'>
+		<h2 className='text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight'>
+			Hi, I'm John Doe
+		</h2>
+		<p className='text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto'>
+			I craft modern, accessible websites with clean design and performant code
+			using React and TailwindCSS.
 		</p>
 	</section>
 );
