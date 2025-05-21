@@ -8,21 +8,21 @@ const Contact = () => (
 			<input
 				type='text'
 				placeholder='Name'
-				className='border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-black'
+				className='border border-gray-300 dark:border-gray-600 p-3 rounded-md bg-white dark:bg-gray-800 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-orange-500'
 			/>
 			<input
 				type='email'
 				placeholder='Email'
-				className='border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-black'
+				className='border border-gray-300 dark:border-gray-600 p-3 rounded-md bg-white dark:bg-gray-800 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-orange-500'
 			/>
 			<textarea
 				placeholder='Message'
 				rows='5'
-				className='border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-black'
+				className='border border-gray-300 dark:border-gray-600 p-3 rounded-md bg-white dark:bg-gray-800 text-black dark:text-white focus:outline-none focus:ring-2 focus:ring-orange-500'
 			/>
 			<button
 				type='submit'
-				className='bg-black text-white py-3 rounded-md hover:bg-gray-800 transition'
+				className='bg-orange-600 text-white py-3 rounded-md hover:bg-orange-700 transition'
 			>
 				Send Message
 			</button>

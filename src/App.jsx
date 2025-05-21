@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react';
+
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
@@ -27,9 +29,18 @@ const projectsData = [
 ];
 
 const App = () => {
+	const [darkMode, setDarkMode] = useState(false);
+
+	useEffect(() => {
+		document.documentElement.classList.toggle("dark", darkMode);
+	}, [darkMode]);
+
 	return (
-		<div className='min-h-screen bg-white text-gray-900 font-sans'>
-			<Header />
+		<div className='min-h-screen bg-warm-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans transition-colors'>
+			<Header
+				darkMode={darkMode}
+				setDarkMode={setDarkMode}
+			/>
 			<main className='w-full px-4 sm:px-8 md:px-12 max-w-7xl mx-auto'>
 				<Hero />
 				<Projects data={projectsData} />
