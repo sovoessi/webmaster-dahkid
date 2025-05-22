@@ -23,8 +23,12 @@ const projectsData = [
 		description: "Sleek and minimal UI for online stores.",
 	},
 	{
-		title: "Dashboard",
-		description: "Fully responsive admin dashboard template.",
+		title: "Jenny's Lingoni",
+		description: "Learn languages with Jenny! A platform for language learning.",
+	},
+	{
+		title: "Track Jobs",
+		description: "A job tracking app for job seekers.",
 	},
 ];
 
