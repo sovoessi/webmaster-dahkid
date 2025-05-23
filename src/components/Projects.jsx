@@ -8,7 +8,7 @@ const Projects = ({ data }) => (
 			{data.map((project, idx) => (
 				<a
 					key={idx}
-					href='#'
+					href={project.link}
 					target='_blank'
 					rel='noopener noreferrer'
 				>
