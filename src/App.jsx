@@ -16,16 +16,6 @@ const projectsData = [
 		link: "https://webmaster-dahkid.vercel.app/",
 	},
 	{
-		title: "Blog Platform",
-		description: "A clean, markdown-supported blog built for writers.",
-		link: "#",
-	},
-	{
-		title: "eCommerce UI",
-		description: "Sleek and minimal UI for online stores.",
-		link: "#",
-	},
-	{
 		title: "Jenny's Lingoni",
 		description:
 			"Learn languages with Jenny! A platform for language learning.",
@@ -35,6 +25,21 @@ const projectsData = [
 		title: "Track Jobs",
 		description: "A job tracking app for job seekers.",
 		link: "https://track-job-client.onrender.com/",
+	},
+	{
+		title: "RecycleWise",
+		description: "A platform for recycling and waste management.",
+		link: "https://recyclewise-clientt.onrender.com/",
+	},
+	{
+		title: "Blog Platform",
+		description: "A clean, markdown-supported blog built for writers.",
+		link: "#",
+	},
+	{
+		title: "eCommerce UI",
+		description: "Sleek and minimal UI for online stores.",
+		link: "#",
 	},
 ];
 
