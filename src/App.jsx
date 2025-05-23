@@ -13,22 +13,28 @@ const projectsData = [
 	{
 		title: "Portfolio Site",
 		description: "A personal portfolio built with React 19 and TailwindCSS v4.",
+		link: "https://webmaster-dahkid.vercel.app/",
 	},
 	{
 		title: "Blog Platform",
 		description: "A clean, markdown-supported blog built for writers.",
+		link: "#",
 	},
 	{
 		title: "eCommerce UI",
 		description: "Sleek and minimal UI for online stores.",
+		link: "#",
 	},
 	{
 		title: "Jenny's Lingoni",
-		description: "Learn languages with Jenny! A platform for language learning.",
+		description:
+			"Learn languages with Jenny! A platform for language learning.",
+		link: "https://jenny-client-2025.onrender.com/",
 	},
 	{
 		title: "Track Jobs",
 		description: "A job tracking app for job seekers.",
+		link: "https://track-job-client.onrender.com/",
 	},
 ];
 

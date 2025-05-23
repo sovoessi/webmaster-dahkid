@@ -1,14 +1,14 @@
 
-import logo from '../assets/dahomeykid_logo.png';
+import logo from '../assets/dahkid_logo.jpg';
 
 const Header = ({ darkMode, setDarkMode }) => (
 	<header className='py-4 border-b border-gray-200 dark:border-gray-700 sticky top-0 bg-warm-50 dark:bg-gray-900 z-10'>
 		<nav className='max-w-7xl mx-auto px-4 flex justify-between items-center'>
 			<a className='hover:text-orange-600 dark:hover:text-orange-400' href='#hero'>
-				<image
+				<img
 					src={logo}
 					alt='Logo'
-					className='h-8 w-8 mr-2 inline-block'
+					className='w-12 h-12 rounded-full inline'
 				/>
 			</a>
 			<div className='flex items-center gap-4'>
