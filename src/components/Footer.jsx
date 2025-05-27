@@ -27,7 +27,7 @@ const Footer = () => (
 				Email
 			</a>
 		</div>
-		© {new Date().getFullYear()} John Doe. All rights reserved.
+		© {new Date().getFullYear()} DahomeyKid. All rights reserved.
 	</footer>
 );
 
