@@ -44,13 +44,13 @@ const projectsData = [
 	{
 		title: "Blog Platform",
 		description: "A clean, markdown-supported blog built for writers.",
-		link: "#",
+		link: "https://ai-powered-blog-client.vercel.app/",
 		img: blog_w,
 	},
 	{
 		title: "eCommerce UI",
 		description: "Sleek and minimal UI for online stores.",
-		link: "#",
+		link: "https://e-com-2025-client.vercel.app/",
 		img: ecom,
 	},
 ];
