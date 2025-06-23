@@ -1,4 +1,4 @@
-const Projects = ({ data, title }) => (
+const Projects = ({ data, title, description }) => (
 	<section
 		id='projects'
 		className='py-16'

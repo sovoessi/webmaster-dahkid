@@ -69,13 +69,13 @@ const challengesData = [
 	{
 		title: "Python Challenges",
 		description: "A collection of Python coding challenges and solutions.",
-		link: "",
+		link: "https://github.com/sovoessi/Exercises_for_Programmers_Book_PYTHON",
 		img: pythonLogo,
 	},
 	{
 		title: "Kotlin Challenges",
 		description: "A collection of Kotlin coding challenges and solutions.",
-		link: "",
+		link: "https://github.com/sovoessi/Exercises_for_Programmers_Book_KOTLIN",
 		img: kotlinLogo,
 	},
 ];
