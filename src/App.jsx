@@ -96,13 +96,15 @@ const App = () => {
 			/>
 			<main className='w-full px-4 sm:px-8 md:px-12 max-w-7xl mx-auto'>
 				<Hero />
-				<Projects data={projectsData} 
-				title="Featured Projects"
-				description="Explore my projects showcasing my skills in web development, design, and coding challenges." />
 				<Projects
 					data={challengesData}
-					title="Coding Challenges"
-					description="Explore my coding challenges in Java, Python, and Kotlin."
+					title='Coding Challenges'
+					description='Explore my coding challenges in Java, Python, and Kotlin.'
+				/>
+				<Projects
+					data={projectsData}
+					title='Featured Projects'
+					description='Explore my projects showcasing my skills in web development, design, and coding challenges.'
 				/>
 				<About />
 				<Contact />
