@@ -15,6 +15,10 @@ import jenny from './assets/jenny.png';
 import trackjob from './assets/trackjob.png';
 import recyclewise from './assets/recyclewise.png';
 
+import javaLogo from './assets/java-logo.png';
+import pythonLogo from './assets/python-logo.png';
+import kotlinLogo from './assets/kotlin-logo.avif';
+
 const projectsData = [
 	{
 		title: "Portfolio Site",
@@ -55,6 +59,28 @@ const projectsData = [
 	},
 ];
 
+const challengesData = [
+	{
+		title: "Challenges in Java",
+		description: "A collection of Java coding challenges and solutions.",
+		link: "https://github.com/sovoessi/Exercises_for_Programmers_Book_JAVA",
+		img: javaLogo,
+	},
+	{
+		title: "Python Challenges",
+		description: "A collection of Python coding challenges and solutions.",
+		link: "",
+		img: pythonLogo,
+	},
+	{
+		title: "Kotlin Challenges",
+		description: "A collection of Kotlin coding challenges and solutions.",
+		link: "",
+		img: kotlinLogo,
+	},
+];
+
+
 const App = () => {
 	const [darkMode, setDarkMode] = useState(false);
 
@@ -70,7 +96,14 @@ const App = () => {
 			/>
 			<main className='w-full px-4 sm:px-8 md:px-12 max-w-7xl mx-auto'>
 				<Hero />
-				<Projects data={projectsData} />
+				<Projects data={projectsData} 
+				title="Featured Projects"
+				description="Explore my projects showcasing my skills in web development, design, and coding challenges." />
+				<Projects
+					data={challengesData}
+					title="Coding Challenges"
+					description="Explore my coding challenges in Java, Python, and Kotlin."
+				/>
 				<About />
 				<Contact />
 			</main>

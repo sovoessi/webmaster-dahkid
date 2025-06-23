@@ -1,9 +1,12 @@
-const Projects = ({ data }) => (
+const Projects = ({ data, title }) => (
 	<section
 		id='projects'
 		className='py-16'
 	>
-		<h3 className='text-2xl font-bold mb-10 text-center'>Featured Projects</h3>
+		<h3 className='text-2xl font-bold mb-10 text-center'>{title}</h3>
+		<p className='text-center text-gray-600 dark:text-gray-300 mb-8'>
+			{description}
+		</p>
 		<div className='grid gap-6 sm:grid-cols-2 lg:grid-cols-3'>
 			{data.map((project, idx) => (
 				<a
